@@ -13,5 +13,5 @@ Link to UX: https://xd.adobe.com/view/de5f2c52-9557-4056-76e1-f977c9a1c7a2-a86e/
 I've encounterd an error with my socket when serverd over https. before with http everything worked.
 Because of this it also wont load the drawings from the db to the canvas.
 For testing perposes i sugest you disable https.
-
+By enabeling 'laravel.conf' and altering the endpoint in js socket connector to 'ws://draw.local:8080'
 Problems with basic authentication also ocourd, It sometimes skips the auth and redirects imedietly.
